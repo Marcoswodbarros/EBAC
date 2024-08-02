@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 2rem auto 0 auto;
+    padding: 2rem;
+    width: 375px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+img {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100%;
+}
+
+ul li {
+    list-style-position: inside;
+    margin: .2rem 0;
+}
+
+.intro-portfolio p {
+    margin-bottom: 1rem;
+}
+
+#services {
+    margin-top: 2rem;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+#form {
+    margin-top: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+label {
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+}
+
+.form-btn {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+}
+
+.form-btn:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+    transition: .7s;
+}
